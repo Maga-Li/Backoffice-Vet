@@ -1,0 +1,769 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\css\\components.css",
+      "PackagePath": "staticwebassets\\css\\components.css"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\css\\fonts.css",
+      "PackagePath": "staticwebassets\\css\\fonts.css"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\css\\template.css",
+      "PackagePath": "staticwebassets\\css\\template.css"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\nunito-v9-latin-600.eot",
+      "PackagePath": "staticwebassets\\fonts\\nunito-v9-latin-600.eot"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\nunito-v9-latin-600.svg",
+      "PackagePath": "staticwebassets\\fonts\\nunito-v9-latin-600.svg"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\nunito-v9-latin-600.ttf",
+      "PackagePath": "staticwebassets\\fonts\\nunito-v9-latin-600.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\nunito-v9-latin-600.woff",
+      "PackagePath": "staticwebassets\\fonts\\nunito-v9-latin-600.woff"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\nunito-v9-latin-600.woff2",
+      "PackagePath": "staticwebassets\\fonts\\nunito-v9-latin-600.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\nunito-v9-latin-700.eot",
+      "PackagePath": "staticwebassets\\fonts\\nunito-v9-latin-700.eot"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\nunito-v9-latin-700.svg",
+      "PackagePath": "staticwebassets\\fonts\\nunito-v9-latin-700.svg"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\nunito-v9-latin-700.ttf",
+      "PackagePath": "staticwebassets\\fonts\\nunito-v9-latin-700.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\nunito-v9-latin-700.woff",
+      "PackagePath": "staticwebassets\\fonts\\nunito-v9-latin-700.woff"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\nunito-v9-latin-700.woff2",
+      "PackagePath": "staticwebassets\\fonts\\nunito-v9-latin-700.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\nunito-v9-latin-800.eot",
+      "PackagePath": "staticwebassets\\fonts\\nunito-v9-latin-800.eot"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\nunito-v9-latin-800.svg",
+      "PackagePath": "staticwebassets\\fonts\\nunito-v9-latin-800.svg"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\nunito-v9-latin-800.ttf",
+      "PackagePath": "staticwebassets\\fonts\\nunito-v9-latin-800.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\nunito-v9-latin-800.woff",
+      "PackagePath": "staticwebassets\\fonts\\nunito-v9-latin-800.woff"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\nunito-v9-latin-800.woff2",
+      "PackagePath": "staticwebassets\\fonts\\nunito-v9-latin-800.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\nunito-v9-latin-regular.eot",
+      "PackagePath": "staticwebassets\\fonts\\nunito-v9-latin-regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\nunito-v9-latin-regular.svg",
+      "PackagePath": "staticwebassets\\fonts\\nunito-v9-latin-regular.svg"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\nunito-v9-latin-regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\nunito-v9-latin-regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\nunito-v9-latin-regular.woff",
+      "PackagePath": "staticwebassets\\fonts\\nunito-v9-latin-regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\nunito-v9-latin-regular.woff2",
+      "PackagePath": "staticwebassets\\fonts\\nunito-v9-latin-regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Farsi-Digits-Without-Latin\\Vazir-Black-FD-WOL.eot",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Farsi-Digits-Without-Latin\\Vazir-Black-FD-WOL.eot"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Farsi-Digits-Without-Latin\\Vazir-Black-FD-WOL.ttf",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Farsi-Digits-Without-Latin\\Vazir-Black-FD-WOL.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Farsi-Digits-Without-Latin\\Vazir-Black-FD-WOL.woff",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Farsi-Digits-Without-Latin\\Vazir-Black-FD-WOL.woff"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Farsi-Digits-Without-Latin\\Vazir-Black-FD-WOL.woff2",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Farsi-Digits-Without-Latin\\Vazir-Black-FD-WOL.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Farsi-Digits-Without-Latin\\Vazir-Bold-FD-WOL.eot",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Farsi-Digits-Without-Latin\\Vazir-Bold-FD-WOL.eot"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Farsi-Digits-Without-Latin\\Vazir-Bold-FD-WOL.ttf",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Farsi-Digits-Without-Latin\\Vazir-Bold-FD-WOL.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Farsi-Digits-Without-Latin\\Vazir-Bold-FD-WOL.woff",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Farsi-Digits-Without-Latin\\Vazir-Bold-FD-WOL.woff"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Farsi-Digits-Without-Latin\\Vazir-Bold-FD-WOL.woff2",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Farsi-Digits-Without-Latin\\Vazir-Bold-FD-WOL.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Farsi-Digits-Without-Latin\\Vazir-FD-WOL.eot",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Farsi-Digits-Without-Latin\\Vazir-FD-WOL.eot"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Farsi-Digits-Without-Latin\\Vazir-FD-WOL.ttf",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Farsi-Digits-Without-Latin\\Vazir-FD-WOL.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Farsi-Digits-Without-Latin\\Vazir-FD-WOL.woff",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Farsi-Digits-Without-Latin\\Vazir-FD-WOL.woff"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Farsi-Digits-Without-Latin\\Vazir-FD-WOL.woff2",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Farsi-Digits-Without-Latin\\Vazir-FD-WOL.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Farsi-Digits-Without-Latin\\Vazir-Light-FD-WOL.eot",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Farsi-Digits-Without-Latin\\Vazir-Light-FD-WOL.eot"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Farsi-Digits-Without-Latin\\Vazir-Light-FD-WOL.ttf",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Farsi-Digits-Without-Latin\\Vazir-Light-FD-WOL.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Farsi-Digits-Without-Latin\\Vazir-Light-FD-WOL.woff",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Farsi-Digits-Without-Latin\\Vazir-Light-FD-WOL.woff"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Farsi-Digits-Without-Latin\\Vazir-Light-FD-WOL.woff2",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Farsi-Digits-Without-Latin\\Vazir-Light-FD-WOL.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Farsi-Digits-Without-Latin\\Vazir-Medium-FD-WOL.eot",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Farsi-Digits-Without-Latin\\Vazir-Medium-FD-WOL.eot"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Farsi-Digits-Without-Latin\\Vazir-Medium-FD-WOL.ttf",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Farsi-Digits-Without-Latin\\Vazir-Medium-FD-WOL.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Farsi-Digits-Without-Latin\\Vazir-Medium-FD-WOL.woff",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Farsi-Digits-Without-Latin\\Vazir-Medium-FD-WOL.woff"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Farsi-Digits-Without-Latin\\Vazir-Medium-FD-WOL.woff2",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Farsi-Digits-Without-Latin\\Vazir-Medium-FD-WOL.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Farsi-Digits-Without-Latin\\Vazir-Thin-FD-WOL.eot",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Farsi-Digits-Without-Latin\\Vazir-Thin-FD-WOL.eot"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Farsi-Digits-Without-Latin\\Vazir-Thin-FD-WOL.ttf",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Farsi-Digits-Without-Latin\\Vazir-Thin-FD-WOL.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Farsi-Digits-Without-Latin\\Vazir-Thin-FD-WOL.woff",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Farsi-Digits-Without-Latin\\Vazir-Thin-FD-WOL.woff"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Farsi-Digits-Without-Latin\\Vazir-Thin-FD-WOL.woff2",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Farsi-Digits-Without-Latin\\Vazir-Thin-FD-WOL.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Farsi-Digits\\Vazir-Black-FD.eot",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Farsi-Digits\\Vazir-Black-FD.eot"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Farsi-Digits\\Vazir-Black-FD.ttf",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Farsi-Digits\\Vazir-Black-FD.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Farsi-Digits\\Vazir-Black-FD.woff",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Farsi-Digits\\Vazir-Black-FD.woff"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Farsi-Digits\\Vazir-Black-FD.woff2",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Farsi-Digits\\Vazir-Black-FD.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Farsi-Digits\\Vazir-Bold-FD.eot",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Farsi-Digits\\Vazir-Bold-FD.eot"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Farsi-Digits\\Vazir-Bold-FD.ttf",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Farsi-Digits\\Vazir-Bold-FD.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Farsi-Digits\\Vazir-Bold-FD.woff",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Farsi-Digits\\Vazir-Bold-FD.woff"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Farsi-Digits\\Vazir-Bold-FD.woff2",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Farsi-Digits\\Vazir-Bold-FD.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Farsi-Digits\\Vazir-FD.eot",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Farsi-Digits\\Vazir-FD.eot"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Farsi-Digits\\Vazir-FD.ttf",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Farsi-Digits\\Vazir-FD.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Farsi-Digits\\Vazir-FD.woff",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Farsi-Digits\\Vazir-FD.woff"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Farsi-Digits\\Vazir-FD.woff2",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Farsi-Digits\\Vazir-FD.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Farsi-Digits\\Vazir-Light-FD.eot",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Farsi-Digits\\Vazir-Light-FD.eot"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Farsi-Digits\\Vazir-Light-FD.ttf",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Farsi-Digits\\Vazir-Light-FD.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Farsi-Digits\\Vazir-Light-FD.woff",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Farsi-Digits\\Vazir-Light-FD.woff"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Farsi-Digits\\Vazir-Light-FD.woff2",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Farsi-Digits\\Vazir-Light-FD.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Farsi-Digits\\Vazir-Medium-FD.eot",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Farsi-Digits\\Vazir-Medium-FD.eot"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Farsi-Digits\\Vazir-Medium-FD.ttf",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Farsi-Digits\\Vazir-Medium-FD.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Farsi-Digits\\Vazir-Medium-FD.woff",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Farsi-Digits\\Vazir-Medium-FD.woff"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Farsi-Digits\\Vazir-Medium-FD.woff2",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Farsi-Digits\\Vazir-Medium-FD.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Farsi-Digits\\Vazir-Thin-FD.eot",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Farsi-Digits\\Vazir-Thin-FD.eot"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Farsi-Digits\\Vazir-Thin-FD.ttf",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Farsi-Digits\\Vazir-Thin-FD.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Farsi-Digits\\Vazir-Thin-FD.woff",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Farsi-Digits\\Vazir-Thin-FD.woff"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Farsi-Digits\\Vazir-Thin-FD.woff2",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Farsi-Digits\\Vazir-Thin-FD.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\LICENSE",
+      "PackagePath": "staticwebassets\\fonts\\vazir"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Vazir-Black.eot",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Vazir-Black.eot"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Vazir-Black.ttf",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Vazir-Black.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Vazir-Black.woff",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Vazir-Black.woff"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Vazir-Black.woff2",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Vazir-Black.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Vazir-Bold.eot",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Vazir-Bold.eot"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Vazir-Bold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Vazir-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Vazir-Bold.woff",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Vazir-Bold.woff"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Vazir-Bold.woff2",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Vazir-Bold.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Vazir-Light.eot",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Vazir-Light.eot"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Vazir-Light.ttf",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Vazir-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Vazir-Light.woff",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Vazir-Light.woff"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Vazir-Light.woff2",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Vazir-Light.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Vazir-Medium.eot",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Vazir-Medium.eot"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Vazir-Medium.ttf",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Vazir-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Vazir-Medium.woff",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Vazir-Medium.woff"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Vazir-Medium.woff2",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Vazir-Medium.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Vazir-Thin.eot",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Vazir-Thin.eot"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Vazir-Thin.ttf",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Vazir-Thin.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Vazir-Thin.woff",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Vazir-Thin.woff"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Vazir-Thin.woff2",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Vazir-Thin.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Vazir.eot",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Vazir.eot"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Vazir.ttf",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Vazir.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Vazir.woff",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Vazir.woff"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Vazir.woff2",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Vazir.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Without-Latin\\Vazir-Black-WOL.eot",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Without-Latin\\Vazir-Black-WOL.eot"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Without-Latin\\Vazir-Black-WOL.ttf",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Without-Latin\\Vazir-Black-WOL.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Without-Latin\\Vazir-Black-WOL.woff",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Without-Latin\\Vazir-Black-WOL.woff"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Without-Latin\\Vazir-Black-WOL.woff2",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Without-Latin\\Vazir-Black-WOL.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Without-Latin\\Vazir-Bold-WOL.eot",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Without-Latin\\Vazir-Bold-WOL.eot"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Without-Latin\\Vazir-Bold-WOL.ttf",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Without-Latin\\Vazir-Bold-WOL.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Without-Latin\\Vazir-Bold-WOL.woff",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Without-Latin\\Vazir-Bold-WOL.woff"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Without-Latin\\Vazir-Bold-WOL.woff2",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Without-Latin\\Vazir-Bold-WOL.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Without-Latin\\Vazir-Light-WOL.eot",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Without-Latin\\Vazir-Light-WOL.eot"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Without-Latin\\Vazir-Light-WOL.ttf",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Without-Latin\\Vazir-Light-WOL.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Without-Latin\\Vazir-Light-WOL.woff",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Without-Latin\\Vazir-Light-WOL.woff"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Without-Latin\\Vazir-Light-WOL.woff2",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Without-Latin\\Vazir-Light-WOL.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Without-Latin\\Vazir-Medium-WOL.eot",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Without-Latin\\Vazir-Medium-WOL.eot"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Without-Latin\\Vazir-Medium-WOL.ttf",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Without-Latin\\Vazir-Medium-WOL.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Without-Latin\\Vazir-Medium-WOL.woff",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Without-Latin\\Vazir-Medium-WOL.woff"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Without-Latin\\Vazir-Medium-WOL.woff2",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Without-Latin\\Vazir-Medium-WOL.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Without-Latin\\Vazir-Thin-WOL.eot",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Without-Latin\\Vazir-Thin-WOL.eot"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Without-Latin\\Vazir-Thin-WOL.ttf",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Without-Latin\\Vazir-Thin-WOL.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Without-Latin\\Vazir-Thin-WOL.woff",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Without-Latin\\Vazir-Thin-WOL.woff"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Without-Latin\\Vazir-Thin-WOL.woff2",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Without-Latin\\Vazir-Thin-WOL.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Without-Latin\\Vazir-WOL.eot",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Without-Latin\\Vazir-WOL.eot"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Without-Latin\\Vazir-WOL.ttf",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Without-Latin\\Vazir-WOL.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Without-Latin\\Vazir-WOL.woff",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Without-Latin\\Vazir-WOL.woff"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\Without-Latin\\Vazir-WOL.woff2",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\Without-Latin\\Vazir-WOL.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\font-face.css",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\font-face.css"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\fonts\\vazir\\sample.png",
+      "PackagePath": "staticwebassets\\fonts\\vazir\\sample.png"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\img\\avatar-1.png",
+      "PackagePath": "staticwebassets\\img\\avatar-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\js\\pages\\fullcalendar.js",
+      "PackagePath": "staticwebassets\\js\\pages\\fullcalendar.js"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\js\\scripts.js"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\js\\stisla.js",
+      "PackagePath": "staticwebassets\\js\\stisla.js"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Espamol\\Desktop\\ProjectoFinal_LR\\ProjectoFinal_LR\\wwwroot\\lib\\sweetalert2.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ProjectoFinal_LR.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.ProjectoFinal_LR.props",
+      "PackagePath": "build\\ProjectoFinal_LR.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.ProjectoFinal_LR.props",
+      "PackagePath": "buildMultiTargeting\\ProjectoFinal_LR.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.ProjectoFinal_LR.props",
+      "PackagePath": "buildTransitive\\ProjectoFinal_LR.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

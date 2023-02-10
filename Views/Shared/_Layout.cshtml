@@ -1,0 +1,191 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using ProjectoFinal_LR.Areas.Identity.Data;
+
+@inject UserManager<ApplicationUser> UserManager
+
+@{
+    var msg = ViewData["Message"];
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
+    <title>@ViewData["Title"] - ProjectoFinal_LR</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/css/template.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/fonts.css" asp-append-version="true" />
+    @await RenderSectionAsync("Styles", required: false)
+    <link rel="stylesheet" href="~/css/style.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/components.css" asp-append-version="true" />
+</head>
+<body>
+ <div id="app">
+    <div class="main-wrapper">
+        <div class="navbar-bg"></div>
+        <nav class="navbar navbar-expand-lg main-navbar">
+            <div class="form-inline mr-auto">
+                <ul class="navbar-nav mr-3">
+                    <li><a href="#" data-toggle="sidebar" class="nav-link nav-link-lg"><i class="fas fa-bars"></i></a></li>
+                </ul>
+            </div>
+            <ul class="navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a data-toggle="dropdown" class="nav-link dropdown-toggle nav-link-lg nav-link-user">
+                        <img alt="image" src="~/img/avatar-1.png" class="rounded-circle mr-1">
+                        <div class="d-sm-none d-lg-inline-block">@UserManager.GetUserName(User)</div>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <div class="dropdown-divider"></div>
+                         <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Page("/Login", new { area = "" })" method="post">
+                            <button type="submit" class="dropdown-item has-icon text-danger">
+                                <i class="fas fa-sign-out-alt"></i> Logout
+                            </button>
+                        </form>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <div class="main-sidebar">
+            <aside id="sidebar-wrapper">
+                <div class="sidebar-brand mb-3">
+                    <a href="/Home/Index">
+                        <i class="fa-solid fa-shield-cat fa-3x mt-3"></i>
+                    </a>
+                </div>
+                <div class="sidebar-brand sidebar-brand-sm">
+                    <a href="/Home/Index">VW</a>
+                </div>
+                <ul class="sidebar-menu">
+                    <li class="menu-header">Dashboard</li>
+                    <li><a class="nav-link" href="/Home/Index"><i class="fas fa-fire"></i> <span>Início</span></a></li>
+                    <li class="menu-header">Consultas</li>
+                    <li><a class="nav-link" asp-controller="Appointment" asp-action="List"><i class="fa-solid fa-list-ul"></i><span>Lista</span></a></li>
+                    <li><a class="nav-link" asp-controller="Appointment" asp-action="Create"><i class="fa-solid fa-plus"></i><span>Adicionar</span></a></li>
+                    <li class="menu-header">Animais</li>
+                    <li><a class="nav-link" asp-controller="Animal" asp-action="List"><i class="fa-solid fa-list-ul"></i><span>Lista</span></a></li>
+                    <li><a class="nav-link" asp-controller="Animal" asp-action="Create"><i class="fa-solid fa-plus"></i><span>Adicionar</span></a></li>
+                    <li class="menu-header">Clientes</li>
+                    <li><a class="nav-link" asp-controller="Client" asp-action="List"><i class="fa-solid fa-list-ul"></i><span>Lista</span></a></li>
+                    <li><a class="nav-link" asp-controller="Client" asp-action="Create"><i class="fa-solid fa-plus"></i><span>Adicionar</span></a></li>
+                    <li class="menu-header">Veterinários</li>
+                    <li><a class="nav-link" asp-controller="Veterinarian" asp-action="List"><i class="fa-solid fa-list-ul"></i><span>Lista</span></a></li>
+                    <li><a class="nav-link" asp-controller="Veterinarian" asp-action="Create"><i class="fa-solid fa-plus"></i><span>Adicionar</span></a></li>
+                </ul>
+            </aside>
+        </div>
+        <!-- Main Content -->
+        <div class="main-content">
+            <section class="section">
+                    @RenderBody()
+            </section>
+        </div>
+        <footer class="main-footer">
+            <div class="footer-left">
+                &copy; @DateTime.Now.Year
+                <div class="bullet"></div>
+                ProjectoFinal Liliana Rodrigues
+            </div>
+            <div class="footer-right">
+                Versão demo || Template from Stisla @*https://getstisla.com/*@
+            </div>
+        </footer>
+    </div>
+</div>
+
+
+<div class="modal fade" tabindex="-1" role="dialog" id="myModal">
+    <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title"><u>Dados consulta</u></h4>
+                <div class="align-content-end">
+                    <i class="fa-solid fa-shield-cat fa-2x mt-1"></i>
+                </div>
+            </div>
+            <div class="modal-body">
+                 <p id="pDetails"></p>
+            </div>
+            <div class="modal-footer card-footer d-flex justify-content-between align-items-center">
+                <div>
+                    <button id="btnDelete" class="btn btn-danger text-left" type="button"><i class="fa-solid fa-trash"></i></button>
+                </div>
+                <div>
+                    <button class="btn btn-secondary mr-1" data-dismiss="modal"><i class="fa-solid fa-xmark"></i></button>
+                    <a class="btn btn-success js-edit"><i class="fa-solid fa-pen-to-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="myModalSave" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title"><u>Criar consulta</u></h4>
+                <div class="align-content-end">
+                    <i class="fa-solid fa-shield-cat fa-2x mt-1"></i>
+                </div>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal">
+                    <input type="hidden" id="idAppointment" value="0"/>
+                    <div class="form-group">
+                        <label class="control-label">Animal</label>
+                        <select id="idAnimal" class ="form-control" asp-items="ViewBag.IdAnimal"></select>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">Veterinário</label>
+                        <select id="idVeterinarian" class ="form-control" asp-items="ViewBag.IdVeterinarian"></select>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">Data/Hora</label>
+                        <input id="dateTimeSchedule" class="form-control"/>
+                            @if (msg != null)
+                            {
+                              <span class="text-danger">@msg</span>
+                            }
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">Observações</label>
+                        <textarea id="txtObservation" class="form-control" style="height:84px;"></textarea>
+                    </div>
+                     <div class="form-group">
+                        <label class="control-label">Preço base</label>
+                        <input id="decPrice" class="form-control"/>
+                    </div>
+                     <div class="form-group">
+                        <label class="control-label">Motivo</label>
+                        <select id="idMotive" class="form-control" asp-items="ViewBag.IdMotive"></select>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">Prioridade</label>
+                        <select id="idPriority" class="form-control" asp-items="ViewBag.IdPriority"></select>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary mr-2" data-dismiss="modal"><i class="fa-solid fa-xmark"></i></button>
+                        <button id="btnSave" class="btn btn-primary mr-1" type="submit">Gravar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment-with-locales.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/js/bootstrap-datetimepicker.min.js"></script>
+    <script src="~/js/scripts.js" asp-append-version="true"></script>
+    <script src="~/js/stisla.js" asp-append-version="true"></script>
+    @await Component.InvokeAsync("Notyf");
+    @await RenderSectionAsync("Scripts", required: false)
+
+</body>
+</html>

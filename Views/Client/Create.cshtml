@@ -1,0 +1,86 @@
+﻿@model ProjectoFinal_LR.Models.Client
+
+@{
+    ViewData["Title"] = "Create";
+	var msg = ViewData["Message"];
+}
+
+<div class="section-header">
+	<h1>Clientes</h1>
+	<div class="section-header-breadcrumb">
+		<div class="breadcrumb-item active"><a href="/Home/Index">Início</a></div>
+		<div class="breadcrumb-item">Adicionar</div>
+	</div>
+</div>
+<div class="section-body">
+	<h2 class="section-title">Adicionar cliente</h2>
+	<div class="row">
+		<div class="col-12">
+			<div class="card">
+				<form method="post" asp-controller="Client" asp-action="Create">
+					<div class="card-body">
+						<div class="form-group">
+							<label asp-for="Name" class="control-label"></label>
+							<input asp-for="Name" class="form-control" />
+							<span asp-validation-for="Name" class="text-danger"></span>
+						</div>
+						<div class="form-group">
+							<label asp-for="Address" class="control-label"></label>
+							<input type="text" asp-for="Address" class="form-control" />
+							<span asp-validation-for="Address" class="text-danger"></span>
+						</div>
+						<div class="form-group">
+							<label asp-for="City" class="control-label"></label>
+							<input type="text" asp-for="City" class="form-control" />
+							<span asp-validation-for="City" class="text-danger"></span>
+						</div>
+						<div class="form-group">
+							<label asp-for="Phone" class="control-label"></label>
+							<input type="tel" asp-for="Phone" class="form-control" />
+							<span asp-validation-for="Phone" class="text-danger"></span>
+						</div>
+						<div class="form-group">
+							<label asp-for="Email" class="control-label"></label>
+							<input type="email" asp-for="Email" class="form-control" />
+							<span asp-validation-for="Email" class="text-danger"></span>
+						</div>
+						<div class="form-group">
+							<label asp-for="TaxNumber" class="control-label"></label>
+							<input type="text" asp-for="TaxNumber" class="form-control" />
+							<span asp-validation-for="TaxNumber" class="text-danger"></span>
+							@if (msg != null)
+							{
+								<span class="text-danger">@msg</span>
+							}
+						</div>
+					</div>
+					<div class="card-footer d-flex justify-content-between align-items-center">
+						<div>
+							<a asp-controller="Client" asp-action="List">Voltar à lista</a>
+						</div>
+						<div>
+							<button class="btn btn-secondary mr-2" type="button" id="reset">Limpar</button>
+							<button class="btn btn-primary mr-1" type="submit">Gravar</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+@section Scripts {
+	@{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+	<script>
+		document.getElementById("reset").onclick = function() {
+			document.getElementById("Name").value = "";
+			document.getElementById("Address").value = "";
+			document.getElementById("City").value = "";
+			document.getElementById("Phone").value = "";
+			document.getElementById("Email").value = "";
+			document.getElementById("TaxNumber").value = "";
+		};
+	</script>
+}

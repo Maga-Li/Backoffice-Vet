@@ -1,0 +1,141 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ProjectoFinal_LR
+build_property.RootNamespace = ProjectoFinal_LR
+build_property.ProjectDir = C:\Users\Espamol\VisualStudioProjects\C#\ASP.NET Core MVC\ProjectoFinal_LR\ProjectoFinal_LR\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Espamol\VisualStudioProjects\C#\ASP.NET Core MVC\ProjectoFinal_LR\ProjectoFinal_LR
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Espamol/VisualStudioProjects/C\#/ASP.NET Core MVC/ProjectoFinal_LR/ProjectoFinal_LR/Areas/Identity/Pages/Account/Identity_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxJZGVudGl0eV9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Espamol/VisualStudioProjects/C\#/ASP.NET Core MVC/ProjectoFinal_LR/ProjectoFinal_LR/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Espamol/VisualStudioProjects/C\#/ASP.NET Core MVC/ProjectoFinal_LR/ProjectoFinal_LR/Areas/Identity/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Espamol/VisualStudioProjects/C\#/ASP.NET Core MVC/ProjectoFinal_LR/ProjectoFinal_LR/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Espamol/VisualStudioProjects/C\#/ASP.NET Core MVC/ProjectoFinal_LR/ProjectoFinal_LR/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Espamol/VisualStudioProjects/C\#/ASP.NET Core MVC/ProjectoFinal_LR/ProjectoFinal_LR/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Espamol/VisualStudioProjects/C\#/ASP.NET Core MVC/ProjectoFinal_LR/ProjectoFinal_LR/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Espamol/VisualStudioProjects/C\#/ASP.NET Core MVC/ProjectoFinal_LR/ProjectoFinal_LR/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Espamol/VisualStudioProjects/C\#/ASP.NET Core MVC/ProjectoFinal_LR/ProjectoFinal_LR/Views/Animal/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFsXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Espamol/VisualStudioProjects/C\#/ASP.NET Core MVC/ProjectoFinal_LR/ProjectoFinal_LR/Views/Animal/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFsXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Espamol/VisualStudioProjects/C\#/ASP.NET Core MVC/ProjectoFinal_LR/ProjectoFinal_LR/Views/Animal/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFsXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Espamol/VisualStudioProjects/C\#/ASP.NET Core MVC/ProjectoFinal_LR/ProjectoFinal_LR/Views/Animal/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFsXExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Espamol/VisualStudioProjects/C\#/ASP.NET Core MVC/ProjectoFinal_LR/ProjectoFinal_LR/Views/Appointment/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwb2ludG1lbnRcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Espamol/VisualStudioProjects/C\#/ASP.NET Core MVC/ProjectoFinal_LR/ProjectoFinal_LR/Views/Appointment/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwb2ludG1lbnRcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Espamol/VisualStudioProjects/C\#/ASP.NET Core MVC/ProjectoFinal_LR/ProjectoFinal_LR/Views/Appointment/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwb2ludG1lbnRcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Espamol/VisualStudioProjects/C\#/ASP.NET Core MVC/ProjectoFinal_LR/ProjectoFinal_LR/Views/Appointment/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwb2ludG1lbnRcTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Espamol/VisualStudioProjects/C\#/ASP.NET Core MVC/ProjectoFinal_LR/ProjectoFinal_LR/Views/Client/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Espamol/VisualStudioProjects/C\#/ASP.NET Core MVC/ProjectoFinal_LR/ProjectoFinal_LR/Views/Client/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Espamol/VisualStudioProjects/C\#/ASP.NET Core MVC/ProjectoFinal_LR/ProjectoFinal_LR/Views/Client/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Espamol/VisualStudioProjects/C\#/ASP.NET Core MVC/ProjectoFinal_LR/ProjectoFinal_LR/Views/Client/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Espamol/VisualStudioProjects/C\#/ASP.NET Core MVC/ProjectoFinal_LR/ProjectoFinal_LR/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Espamol/VisualStudioProjects/C\#/ASP.NET Core MVC/ProjectoFinal_LR/ProjectoFinal_LR/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Espamol/VisualStudioProjects/C\#/ASP.NET Core MVC/ProjectoFinal_LR/ProjectoFinal_LR/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Espamol/VisualStudioProjects/C\#/ASP.NET Core MVC/ProjectoFinal_LR/ProjectoFinal_LR/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Espamol/VisualStudioProjects/C\#/ASP.NET Core MVC/ProjectoFinal_LR/ProjectoFinal_LR/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Espamol/VisualStudioProjects/C\#/ASP.NET Core MVC/ProjectoFinal_LR/ProjectoFinal_LR/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Espamol/VisualStudioProjects/C\#/ASP.NET Core MVC/ProjectoFinal_LR/ProjectoFinal_LR/Views/Veterinarian/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmV0ZXJpbmFyaWFuXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Espamol/VisualStudioProjects/C\#/ASP.NET Core MVC/ProjectoFinal_LR/ProjectoFinal_LR/Views/Veterinarian/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmV0ZXJpbmFyaWFuXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Espamol/VisualStudioProjects/C\#/ASP.NET Core MVC/ProjectoFinal_LR/ProjectoFinal_LR/Views/Veterinarian/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmV0ZXJpbmFyaWFuXExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Espamol/VisualStudioProjects/C\#/ASP.NET Core MVC/ProjectoFinal_LR/ProjectoFinal_LR/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Espamol/VisualStudioProjects/C\#/ASP.NET Core MVC/ProjectoFinal_LR/ProjectoFinal_LR/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

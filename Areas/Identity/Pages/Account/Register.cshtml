@@ -1,0 +1,70 @@
+﻿@page
+@model RegisterModel
+@{
+	ViewData["Title"] = "Register";
+	Layout = "~/Areas/Identity/Pages/Account/Identity_Layout.cshtml";
+}
+
+<div id="app">
+    <section class="section">
+        <div class="container mt-3">
+            <div class="row">
+                <div class="col-12">
+                    <div class="login-brand">
+                        <i class="fa-solid fa-shield-cat fa-5x"></i>
+                    </div>
+                    <div class="card card-primary">
+                        <div class="card-header"><h4>Registo</h4></div>
+                        <div class="card-body">
+                            <form method="POST" id="registerForm" asp-route-returnUrl="@Model.ReturnUrl">
+                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                <div class="row">
+                                    <div class="form-group col-6">
+                                        <label asp-for="Input.FirstName"></label>
+                                        <input asp-for="Input.FirstName" class="form-control" aria-required="true" />
+                                        <span asp-validation-for="Input.FirstName" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group col-6">
+                                        <label asp-for="Input.LastName"></label>
+                                        <input asp-for="Input.LastName" class="form-control" aria-required="true" />
+                                        <span asp-validation-for="Input.LastName" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="Input.Email"></label>
+                                    <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" />
+                                    <span asp-validation-for="Input.Email" class="text-danger"></span>
+                                </div>
+                                <div class="row">
+                                    <div class="form-group col-6">
+                                        <label asp-for="Input.Password"></label>
+                                        <input asp-for="Input.Password" class="form-control" autocomplete="new-password" aria-required="true" />
+                                        <span asp-validation-for="Input.Password" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group col-6">
+                                        <label asp-for="Input.ConfirmPassword"></label>
+                                        <input asp-for="Input.ConfirmPassword" class="form-control" autocomplete="new-password" aria-required="true" />
+                                        <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+                                    </div>
+                                </div>
+
+                                    <div class="form-group">
+                                        <button id="registerSubmit" type="submit" class="w-100 btn btn-primary btn-lg btn-block mt-4">Registar</button>
+                                    </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="simple-footer">
+                        VetWare - Liliana Rodrigues
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  </div>
+
+
+
+@section Scripts {
+	<partial name="_ValidationScriptsPartial" />
+}

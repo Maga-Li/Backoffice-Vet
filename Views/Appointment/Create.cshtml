@@ -1,0 +1,90 @@
+﻿@model ProjectoFinal_LR.Models.Appointment
+
+@{
+    ViewData["Title"] = "Create";
+	var msg = ViewData["Message"];
+}
+
+<div class="section-header">
+	<h1>Consultas</h1>
+	<div class="section-header-breadcrumb">
+		<div class="breadcrumb-item active"><a href="/Home/Index">Início</a></div>
+		<div class="breadcrumb-item">Adicionar</div>
+	</div>
+</div>
+<div class="section-body">
+	<h2 class="section-title">Adicionar consulta</h2>
+	<div class="row">
+		<div class="col-12">
+			<div class="card">
+				<form method="post" asp-controller="Appointment" asp-action="Create">
+					<div class="card-body">
+						<div class="form-group">
+							<label asp-for="IdAnimal" class="control-label"></label>
+							<select asp-for="IdAnimal" class ="form-control" asp-items="ViewBag.IdAnimal"></select>
+						</div>
+						<div class="form-group">
+							<label asp-for="IdVeterinarian" class="control-label"></label>
+							<select asp-for="IdVeterinarian" class ="form-control" asp-items="ViewBag.IdVeterinarian"></select>
+						</div>
+						<div class="form-group">
+							<label asp-for="Schedule" class="control-label"></label>
+							<input asp-for="Schedule" class="form-control" />
+							<span asp-validation-for="Schedule" class="text-danger"></span>
+							@if (msg != null)
+							{
+								<span class="text-danger">@msg</span>
+							}
+						</div>
+						<div class="form-group">
+							<label asp-for="Observations" class="control-label"></label>
+							<input asp-for="Observations" class="form-control" />
+							@*<span asp-validation-for="Observations" class="text-danger"></span>*@
+						</div>
+						<div class="form-group">
+							<label asp-for="Price" class="control-label"></label>
+							<input name="Price" id="Price" class="form-control" />
+							@*<span asp-validation-for="Price" class="text-danger"></span>*@
+						</div>
+						<div class="form-group">
+							<label asp-for="IdMotive" class="control-label"></label>
+							<select asp-for="IdMotive" class ="form-control" asp-items="ViewBag.IdMotive"></select>
+						</div>
+						<div class="form-group">
+							<label asp-for="IdPriority" class="control-label"></label>
+							<select asp-for="IdPriority" class ="form-control" asp-items="ViewBag.IdPriority"></select>
+						</div>
+					</div>
+					<div class="card-footer d-flex justify-content-between align-items-center">
+						<div>
+							<a asp-controller="Appointment" asp-action="List">Voltar à lista</a>
+						</div>
+						<div>
+							<button class="btn btn-secondary mr-2" type="button" id="reset">Limpar</button>
+							<button class="btn btn-primary mr-1" type="submit">Gravar</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+@section Scripts {
+	@{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+	<script>
+		document.getElementById("reset").onclick = function() {
+			document.getElementById("IdAnimal").value = "";
+			document.getElementById("IdVeterinarian").value = "";
+			document.getElementById("Schedule").value = "";
+			document.getElementById("Observations").value = "";
+			document.getElementById("Price").value = "";
+			document.getElementById("IdMotive").value = "";
+			document.getElementById('IdPriority').value = "";
+		};
+	</script>
+}
+
+

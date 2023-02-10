@@ -1,0 +1,52 @@
+﻿@model ProjectoFinal_LR.Models.Veterinarian
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div class="section-header">
+    <h1>Veterinários</h1>
+    <div class="section-header-breadcrumb">
+        <div class="breadcrumb-item active"><a href="/Home/Index">Início</a></div>
+		<div class="breadcrumb-item active"><a asp-controller="Veterinarian" asp-action="List">Lista</a></div>
+        <div class="breadcrumb-item">Editar</div>
+    </div>
+</div>
+<div class="section-body">
+	<h2 class="section-title">Editar veterinário</h2>
+	<div class="row">
+		<div class="col-12">
+			<div class="card">
+				<form method="post" asp-controller="Veterinarian" asp-action="Edit">
+					<div class="card-body">
+						<input type="hidden" asp-for="IdVeterinarian"/>
+						<div class="form-group">
+							<label asp-for="Name" class="control-label"></label>
+							<input asp-for="Name" class="form-control" />
+							<span asp-validation-for="Name" class="text-danger"></span>
+						</div>
+					</div>
+					<div class="card-footer d-flex justify-content-between align-items-center">
+						<div>
+							<a asp-controller="Veterinarian" asp-action="List">Voltar à lista</a>
+						</div>
+						<div>
+							<button class="btn btn-secondary mr-2" type="button" id="reset">Limpar</button>
+							<button class="btn btn-primary mr-1" type="submit">Gravar</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+@section Scripts {
+	@{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+	<script>
+		document.getElementById("reset").onclick = function() {
+			document.getElementById("Name").value = "";
+		};
+	</script>
+}

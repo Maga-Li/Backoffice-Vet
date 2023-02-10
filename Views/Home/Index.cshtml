@@ -1,0 +1,228 @@
+﻿@model IEnumerable<ProjectoFinal_LR.Models.Appointment>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+@section Styles{
+    <link href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.4.0/fullcalendar.min.css" rel="stylesheet" />
+    <link href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.4.0/fullcalendar.print.css" rel="stylesheet" media="print"/>
+}
+
+<div class="card-container row">
+    <div class="col-xl-3 col-lg-6">
+        <div class="card card-stats mb-4 mb-xl-0">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col">
+                        <h5 class="card-title text-uppercase text-muted mb-0">Total animais</h5>
+                        <span class="h2 font-weight-bold mb-0">@ViewBag.CountAnimals</span>
+                     </div>
+                    <div class="col-auto">
+                        <div class="icon icon-shape bg-info text-white rounded-circle shadow">
+                            <i class="fa-solid fa-paw"></i>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-3 col-lg-6">
+        <div class="card card-stats mb-4 mb-xl-0">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col">
+                        <h5 class="card-title text-uppercase text-muted mb-0">Total clientes</h5>
+                        <span class="h2 font-weight-bold mb-0">@ViewBag.CountClients</span>
+                     </div>
+                    <div class="col-auto">
+                        <div class="icon icon-shape bg-danger text-white rounded-circle shadow">
+                            <i class="fa-solid fa-users"></i>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-3 col-lg-6">
+        <div class="card card-stats mb-4 mb-xl-0">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col">
+                        <h5 class="card-title text-uppercase text-muted mb-0">Total consultas</h5>
+                        <span class="h2 font-weight-bold mb-0 js-appointmentCount">@ViewBag.CountAppointments</span>
+                     </div>
+                    <div class="col-auto">
+                        <div class="icon icon-shape  bg-yellow text-white rounded-circle shadow">
+                            <i class="fa-solid fa-calendar-check"></i>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-3 col-lg-6">
+        <div class="card card-stats mb-4 mb-xl-0">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col">
+                        <h5 class="card-title text-uppercase text-muted mb-0">Consultas do dia</h5>
+                        <span class="h2 font-weight-bold mb-0 js-appointmentCountByDay">@ViewBag.CountAppointmentsByDay</span>
+                     </div>
+                    <div class="col-auto">
+                        <div class="icon icon-shape bg-warning text-white rounded-circle shadow">
+                            <i class="fa-solid fa-clipboard-user"></i>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row mt-5">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header bg-primary">
+                <h4 class="text-white-50"><u>Consultas do dia</u></h4>
+            </div>
+            <div class="card-body p-0">
+                <div class="table-responsive">
+                    <table class="table table-striped" id="refreshTable">
+                        @if(Model.Count() > 0)
+                        {
+                            <thead>
+                                <tr>
+                                    <th>Data/Hora</th>
+                                    <th>Animal</th>
+                                    <th>Veterinário</th>
+                                    <th>Prioridade</th>
+                                    <th>Tempo de espera</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            @foreach (var item in Model)
+                            {
+                                var waitingTime = item.Schedule.Subtract(DateTime.Now);
+
+                                <tr>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Schedule)
+                                    </td>
+                                    <td class="align-middle">
+                                        @Html.DisplayFor(modelItem => item.Animal.Name)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Veterinarian.Name)
+                                    </td>
+                                    <td>
+                                        <span class="badge badge-@(item.Priority.Type == "Baixa" ? "success" : item.Priority.Type == "Média" ? "warning" : "danger") badge-pill">
+                                            @Html.DisplayFor(modelItem => item.Priority.Type)
+                                        </span>
+                                    </td>
+                                    @if (waitingTime.Minutes.ToString().Contains("-"))
+                                    {
+                                        <td class="text-center">--</td>
+                                    }
+                                    else
+                                    {
+                                        <td class="text-center">
+                                            @($"{waitingTime.Hours}h {waitingTime.Minutes}m")
+                                        </td>
+                                    }
+                                </tr>
+                            }
+                            </tbody>
+                        }
+                        else
+                        {
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        Sem consultas do dia
+                                    </td>
+                                </tr>
+                            </tbody>
+                        }
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mt-3">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header bg-primary">
+                <h4 class="text-white-50"><u>Calendário</u></h4>
+            </div>
+            <div class="card-body p-0">
+                <div>
+                    <div id="calendar" class="mt-3 ml-3 mr-3"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+    <script src="~/lib/sweetalert2.min.js" asp-append-version="true"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.4.0/fullcalendar.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.1.0/locale/pt.js"></script>
+    <script src="~/js/pages/fullcalendar.js" asp-append-version="true"></script>
+
+    @{
+        if(Model.Count() > 0)
+        {
+        <script>
+            // Esta função permite fazer o refresh da tabela
+
+            setInterval(function() {
+                $.ajax({
+                    type: "POST",
+                    dataType: "json",
+                    url: '/Home/GetListByDay',
+                    success: function (result) {
+
+                        let data = result.list;
+
+                        if (data.length) {
+                            let str = "";
+                            for (let i = 0; i < data.length; i++) {
+
+                                let type = data[i].priority.type == "Baixa" ? "success" : data[i].priority.type == "Média" ? "warning" : "danger";
+
+                                let now = new Date().getTime();
+                                let schedule = new Date(data[i].schedule).getTime();
+
+                                let waitingTimeMiliseconds = schedule - now;
+
+                                let waitingTime = new Date(waitingTimeMiliseconds).toISOString().slice(11, 16);
+                                str += "<tr>";
+
+                                str += "<td>" + moment(data[i].schedule).format("DD/MM/YYYY HH:mm:ss") + "</td>";
+                                str += "<td class = 'align-middle' >" + data[i].animal.name + "</td>";
+                                str += "<td>" + data[i].veterinarian.name + "</td>";
+                                str += "<td><span class='badge badge-" + type + " badge-pill'>" + data[i].priority.type + "</span></td>";
+
+                                if(waitingTimeMiliseconds.toString().includes("-")){
+                                    str += "<td class='text-center'>--</td>";
+                                }else{
+                                    str += "<td class='text-center'>" + waitingTime.replace(":", "h ") + "m</td>";
+                                }
+
+                                str += "</tr>";
+                            }
+                            $('#refreshTable tbody').empty().append(str);
+                        }
+                    },
+                    error: function () {
+                        console.log("Erro!");
+                    }
+                });
+            }, 500);
+
+        </script>
+        }
+    }
+}

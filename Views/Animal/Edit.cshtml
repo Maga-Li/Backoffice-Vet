@@ -1,0 +1,115 @@
+﻿@model ProjectoFinal_LR.Models.Animal
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div class="section-header">
+	<h1>Animais</h1>
+	<div class="section-header-breadcrumb">
+		<div class="breadcrumb-item active"><a href="/Home/Index">Início</a></div>
+		<div class="breadcrumb-item active"><a asp-controller="Animal" asp-action="List">Lista</a></div>
+		<div class="breadcrumb-item active"><a asp-controller="Animal" asp-action="Details" asp-route-idAnimal="@Model.IdAnimal">Detalhes</a></div>
+		<div class="breadcrumb-item">Editar</div>
+	</div>
+</div>
+<div class="section-body">
+	<h2 class="section-title">Editar animal</h2>
+	<div class="row">
+		<div class="col-12">
+			<div class="card">
+				<form method="post" asp-controller="Animal" asp-action="Edit">
+					<div class="card-body">
+						<input type="hidden" asp-for="IdAnimal"/>
+						<div class="form-group">
+							<label asp-for="Name" class="control-label"></label>
+							<input asp-for="Name" class="form-control" />
+							<span asp-validation-for="Name" class="text-danger"></span>
+						</div>
+						<div class="form-group">
+							<label asp-for="BirthDate" class="control-label"></label>
+							<input type="date" asp-for="BirthDate" class="form-control" />
+							<span asp-validation-for="BirthDate" class="text-danger"></span>
+						</div>
+						<div class="form-group">
+							<label class="d-block">Género:</label>
+							<div class="form-check">
+								<input class="form-check-input" type="radio" name="Gender" value="0" id="M" @(Model.Gender == 0 ? "checked" : "")>
+								<label class="form-check-label" for="M">Masculino</label>
+							</div>
+							<div class="form-check">
+								<input class="form-check-input" type="radio" name="Gender" value="1" id="F" @(Model.Gender == 1 ? "checked" : "")>
+								<label class="form-check-label" for="F">Feminino</label>
+							</div>
+						</div>
+						<div class="form-group">
+							<label asp-for="IdClient" class="control-label"></label>
+							<select asp-for="IdClient" class ="form-control" asp-items="ViewBag.IdClient"></select>
+						</div>
+						<div class="form-group">
+							<label asp-for="IdSpecie" class="control-label"></label>
+							<select asp-for="IdSpecie" class ="form-control" onchange="GetSpecieById()" asp-items="ViewBag.IdSpecie"></select>
+						</div>
+						<div class="form-group">
+							<label asp-for="IdBreed" class="control-label"></label>
+							<select asp-for="IdBreed" class ="form-control" asp-items="ViewBag.IdBreed"></select>
+						</div>
+					</div>
+					<div class="card-footer d-flex justify-content-between align-items-center">
+						<div>
+							<a asp-controller="Animal" asp-action="List">Voltar à lista</a>
+						</div>
+						<div>
+							<button class="btn btn-secondary mr-2" type="button" id="reset">Limpar</button>
+							<button class="btn btn-primary mr-1" type="submit">Gravar</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+@section Scripts {
+	@{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+	<script>
+			function GetSpecieById() {
+					var selectSpecie = document.getElementById('IdSpecie');
+					var selectBreed = document.getElementById('IdBreed');
+					var option = selectSpecie.options[selectSpecie.selectedIndex];
+					selectBreed.innerHTML = "";
+					var xhr = new XMLHttpRequest();
+
+					var url = '/Animal/GetBreedsBySpecie?idSpecie=' + option.value;
+					xhr.open("GET", url, true);
+					xhr.onreadystatechange = function () {
+						if (this.readyState == 4 && this.status == 200) {
+							let jsObject = JSON.parse(this.responseText);
+
+							for (const key in jsObject) {
+								var newOption = document.createElement("option");
+								newOption.text = jsObject[key].name;
+								newOption.value = jsObject[key].idBreed;
+
+								selectBreed.add(newOption);
+							}
+						}
+					}
+					xhr.send();
+				}
+	</script>
+	<script>
+			document.getElementById("reset").onclick = function() {
+				document.getElementById("Name").value = "";
+				document.getElementById("BirthDate").value = "";
+				document.getElementById("M").checked = true
+				document.getElementById("IdClient").value = "";
+				document.getElementById("IdSpecie").value = "";
+				document.getElementById("IdBreed").value = "";
+			};
+		</script>
+}
+
